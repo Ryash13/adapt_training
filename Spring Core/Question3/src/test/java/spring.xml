@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id = "bankAccountController" class = "io.assignment.BankAccountController" autowire = "constructor">
+	</bean>
+	
+	<bean id = "bankAccount" class = "io.assignment.BankAccount">
+		<property name="accountId" value = "125000045241"></property>
+		<property name="accountHolderName" value = "Yash Raj"></property>
+		<property name="accountType" value = "savings"></property>
+		<property name="accountBalance" value = "100000"></property>
+	</bean>
+	
+	<bean id = "bankRepository" class = "io.assignment.BankAccountrepositoryImpl">
+	</bean>
+	
+	<bean id = "bankService" class = "io.assignment.BankAccountServiceImpl"></bean>
+	
+</beans>
