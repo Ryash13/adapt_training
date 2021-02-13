@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id = "quesList" class = "io.assignment.ListQues">
+		<property name = "questionId" value = "1"></property>
+		<property name = "question" value = "What is the capital of India?"></property>
+		<property name = "answers">
+			<list>
+				<value>1) Bihar</value>
+				<value>2) Punjab</value>
+				<value>3) New Delhi</value>
+				<value>4) Tamil Nadu</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id = "quesSet" class = "io.assignment.SetQues">
+		<property name = "questionId" value = "2"></property>
+		<property name = "question" value = "In Java, JAR stands for?"></property>
+		<property name = "answers">
+			<list>
+				<value>1) Java Archive Runner</value>
+				<value>2) Java Application Resource</value>
+				<value>3) Java Application Runner</value>
+				<value>4) Java Archiver</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id = "quesMap" class = "io.assignment.MapQues">
+		<property name = "questionId" value = "3"></property>
+		<property name = "question" value = "Which attribute is used to set the scope of a bean?"></property>
+		<property name = "answers">
+			<map>
+				<entry key = "1" value = "getBean"></entry>
+				<entry key = "2" value = "setBean"></entry>
+				<entry key = "3" value = "beanScope"></entry>
+				<entry key = "4" value = "scope"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>
