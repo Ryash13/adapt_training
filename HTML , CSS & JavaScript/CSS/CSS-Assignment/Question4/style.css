@@ -1,0 +1,15 @@
+body{
+	font-family: sans-serif;
+}
+
+a{
+	display: flex;
+	color: green;
+	margin-top: 1px;
+	text-decoration: none;
+	padding: 2px;
+}
+
+a:visited {
+	color: red;
+}
