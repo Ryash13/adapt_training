@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style type="text/css">
+		.grid-container {
+           	display: grid;
+           	grid-template-areas:'topLeft topLeft topLeft topRight topRight topRight'
+           						'botLeft botLeft botLeft botRight botRight botRight';
+           	border: 2px solid black;  
+           	width: 150px;
+           	height: 64px;
+        }
+	    .top_left {
+          grid-area: topLeft; 
+          background: #c0c0c0; 
+          border: 1px groove #333333; 
+          width: 73px; 
+          height: 20px;
+	 	}
+        .top_right { 
+        	grid-area: topRight; 
+        	background: #808080; 
+        	border: 1px groove #333333; 
+        	width: 73px; 
+        	height: 20px;
+        }
+        .bottom_left { 
+        	grid-area: botLeft; 
+        	background: #808080; 
+        	border: 1px groove #333333; 
+        	width: 73px; 
+        	height: 40px;
+        }
+        .bottom_right { 
+        	grid-area: botRight; 
+        	background: #c0c0c0; 
+        	border: 1px groove #333333; 
+        	width: 73px; 
+        	height: 40px;
+        }
+        
+	</style>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="top_left">
+			topLeft
+		</div>
+		<div class="top_right">
+			topRight
+		</div>
+		<div class="bottom_left">
+			<p>botLeft</p>
+		</div>
+    	<div class="bottom_right">
+			<p>botRight</p>
+    	</div>
+	</div>
+</body>
+</html>
