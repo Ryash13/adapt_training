@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif;
+	background-color: lightgray;
+}
+
+.para1 {
+	font-size: 25px;
+	border-style: solid;
+	border-width: thick;
+	width: 25%;
+}
+
+.para2{
+	font-size: 25px;
+	border-style: solid;
+	border-width: medium;
+	width: 25%;
+}
+
+.para3{
+	font-size: 25px;
+	border-style: solid;
+	border-width: thin;
+	width: 25%;
+}
