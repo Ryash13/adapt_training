@@ -1,0 +1,19 @@
+body {
+	background-color: lightblue;
+	margin: auto;
+}
+
+.uppercase {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.lowercase {
+	font-size: 30px;
+	text-transform: lowercase;
+}
+
+.capitalize {
+	font-size: 30px;
+	text-transform: capitalize;
+}
