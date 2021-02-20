@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question8 Assignment</title>
+	<style type="text/css">
+		.grid {
+			display: grid;
+			grid-template-areas: 'top top top top top top' 'left left left right right right';
+			border: 2px solid black;
+			width: 200px;
+			height: 100px;
+			margin: auto;
+		}
+		.top_container {
+			grid-area: top;
+			background-color: #008080;
+			border: 1px groove #333333;
+			width: 198px;
+			height: 40px;
+		}
+		.bottom_left_container {
+			grid-area: left;
+			background-color: #808080;
+			border: 1px groove #333333;
+			width: 98px;
+			height: 59px;
+		}
+		.bottom_right_container {
+			grid-area: right;
+			background-color: #c0c0c0;
+			border: 1px groove #333333;
+			width: 98px;
+			height: 59px;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="top_container">
+			<p>Top</p>
+		</div>
+		<div class="bottom_left_container">
+			<p>Left</p>
+		</div>
+		<div class="bottom_right_container">
+			<p>Right</p>
+		</div>
+	</div>
+</body>
+</html>
