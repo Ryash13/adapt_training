@@ -1,0 +1,60 @@
+body {
+    background-color: white ;
+    padding: auto;
+    margin: auto;
+}
+
+.box1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #171717;
+    color: white;
+    width: 90wh;
+}
+
+.box1 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 h3{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.box1 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;;
+}
+
+.intro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro p {
+    font-style: italic;
+}
+
+.about {
+    display: flex;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.about span {
+    display: flex;
+    justify-content: center;
+}
+
+.about p{
+    font-size: 15px;
+    font-family: "cambria" , serif;
+}
