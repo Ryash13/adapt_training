@@ -1,0 +1,16 @@
+body {
+	font-family: sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.table {
+	display: flex;
+	justify-content: center;
+}
+
+th , tr , td {
+	border: 1px solid black;
+}
