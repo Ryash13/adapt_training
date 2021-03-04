@@ -17,6 +17,8 @@ function userFriends(username, ...friends){
 }
 userFriends('Yash','Hemant','Suraj','Harshit','Sachin');
 
+// 5.c
+
 function printCapitalNames(name1, name2, name3, name4, name5){
     console.log(name1.toUpperCase());
     console.log(name2.toUpperCase());
