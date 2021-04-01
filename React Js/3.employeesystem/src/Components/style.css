@@ -1,0 +1,39 @@
+.form{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ .table{
+     margin-top: 5%;
+     margin-left: 5%;
+     width: 30%;
+ }
+ .form input {
+     margin-top: 15px;
+ }
+ .form button {
+     width: 80px;
+     padding: 5px;
+     margin-top: 10px;
+     margin-left: 200px;
+     border-radius: 10px;
+     border: 1px transparent black;
+ }
+
+ .form button:hover {
+     background-color:blue;
+     color: white;
+     border-radius: 10px;
+     transition: 0.5s ease;
+ }
+
+ .remove {
+     padding: 6px;
+     border-radius: 7px;
+     background-color: lightgrey;
+     color: black;
+ }
